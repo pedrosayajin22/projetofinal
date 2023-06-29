@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.exibirForm {
+    width: 330px;
+    height: 40px;
+    background-color: #8AA7E9;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.exibirForm h3 {
+    font-size: 23px;
+    color: white;
+    font-weight: normal;
+}
+
+form {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+form input {
+    border: 0;
+    outline: 0;
+}
+
+form input:focus-visible {
+    border: 0;
+    outline: 0;
+}
+
+#text2 {
+    margin: 9px 0;
+}
+
+form h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.centraliza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form h2::after {
+    content: '';
+    display: block;
+    width: 259px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 4px auto;
+}
+
+form textarea {
+    width: 400px;
+    margin: 10px auto;
+}
+form textarea:focus-visible{
+    outline: 0;
+    border: 1;
+}
+
+.centra {
+    display: flex;
+    justify-content: center;
+}
+.avaliacoes h3{
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+.avalia{
+    border-radius: 30px;
+    width: 20%;
+    height: 400px;
+    background-color: #cad9fb;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    box-shadow: 0px 0px 4px 2px cornflowerblue;
+}
+.avalia ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+.avalia h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+}
+.avalia ul h2:first-of-type{
+    padding-top: 10px;
+    
+}
+
+#cars:focus-within{
+    outline: 0;
+    border: 1;
+    
+}
+.centra input{
+    width: 100px;
+    height: 25px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    float: right;
+    border: 0px;
+    outline: 0;
+    background-color:white;
+}

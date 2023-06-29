@@ -1,0 +1,75 @@
+.tabela{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    background-color:#C2D4FD ;
+    color: #004EFf;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.modal{
+    position: absolute;
+    top: 20%;
+    left: calc(50% - 263px);
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 6px cornflowerblue;   
+    background-color: #b3caff;
+}
+.modal button{
+    width: 100px;
+    height: 25px;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    float: right;
+    border: 0px;
+    outline: 0;
+    background-color:white;
+}
+.modal-texto{
+    width: 95%;
+}
+.modal-texto span{
+    font-size: 22px;
+}
+.modal-texto h2{
+    font-size: 19px;
+    text-align: center;
+}
+.modal-texto h3:nth-of-type(1){
+    text-align: left;
+    font-size: 18px;
+    margin: 5px 0px 5px 10px;
+}
+.modal-texto h3:nth-of-type(2){
+    font-size: 15px;
+    margin-left: 10px;
+}
+.modal-texto h3:nth-of-type(3){
+    font-size: 15px ;
+    margin-left: 10px;
+}
+.modal-texto h3:nth-of-type(4){
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-align: center;
+
+}
+.modal-texto h5{
+    margin-left: 20px;
+}
+
+
