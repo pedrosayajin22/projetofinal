@@ -56,6 +56,7 @@ export default function Corpo() {
       <div className="exibirForm" style={{ cursor: 'pointer' }} onClick={handleOpenModal}>
         <h3>Exibir o formulário de avaliação</h3>
       </div>
+
       <Modal isOpen={openModal} onRequestClose={handleCloseModal} className='modal'>
         <button onClick={handleCloseModal}>Fechar</button>
        
@@ -80,6 +81,7 @@ export default function Corpo() {
           )}
         </form>
       </Modal>
+      
       <div className="itemtabela" style={{ marginTop: 15, marginRight: 5, display: 'flex', justifyContent: 'center' }}>
         {lista.map((carro) => (
           <TabelaCarro key={carro.id} lista={carro} observacoes={carro.id === carroSelecionado ? observacoes : localStorage.getItem(carro.id) || ''} />
